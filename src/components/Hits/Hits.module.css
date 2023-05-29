@@ -1,0 +1,26 @@
+.hits {
+  margin-top: 20px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.image-block {
+  display: grid;
+  background-color: rgb(197, 197, 197);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  border: none;
+  outline: none;
+}
+
+.image-block:hover {
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.2);
+}
+
+.pic {
+  padding: 10px;
+  place-self: center;
+}

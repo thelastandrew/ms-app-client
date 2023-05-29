@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.btn,
+.input {
+  padding: 5px 20px;
+  font-family: inherit;
+}
+
+.btn:not(:disabled):hover {
+  cursor: pointer;
+}
+

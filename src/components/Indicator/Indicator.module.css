@@ -1,0 +1,11 @@
+.indicator {
+  display: flex;
+  justify-content: space-between;
+}
+
+.select-input {
+  font-family: inherit;
+  margin-left: 10px;
+  padding: 5px 10px;
+}
+
